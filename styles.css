@@ -1,0 +1,710 @@
+/*register page*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.success {
+    color: green;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer .footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin: 0;
+}
+
+.contact-details {
+    margin: 10px 0;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.background-slider {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+main {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#about {
+    background-color: rgba(33, 32, 32, 0.8);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+
+/*about us*/
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #0d0d0d; /* Dark background for better readability */
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(11, 11, 11, 0.7);
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 15px 0;
+    color: #f0f0f0; /* Lighter text color for readability */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #f0f0f0; /* Ensure text is readable */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p, ul li {
+        font-size: 1em;
+    }
+}
+
+
+/*footer*/
+footer {
+    background-color: #4f4f4a; /* Dark background for the footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.contact-details {
+    margin: 15px 0;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*categories*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category {
+    background-color: white; /* White background for category cards */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin: 15px;
+    width: 300px; /* Fixed width for category cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.category img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top */
+}
+
+.category h2 {
+    font-size: 1.8em;
+    margin: 15px 0 10px;
+}
+
+.category p {
+    font-size: 1em;
+    color: #000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000; /* Dark background for the footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.contact-details {
+    margin: 15px 0;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*store css*/
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top */
+}
+
+.product h2 {
+    font-size: 1.8em;
+    margin: 15px 0 10px;
+}
+
+.product p {
+    font-size: 1em;
+    color: #000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.contact-details {
+    margin: 15px 0;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*cart css*/
+#cart {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
